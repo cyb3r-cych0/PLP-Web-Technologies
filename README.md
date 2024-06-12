@@ -25,8 +25,8 @@
     - Telephone
     - Email Address
     - Course
-   The form should have two buttons:
+    The form should have two buttons:
     - Register
     - Cancel
-   All the form elements are not optional.
-   Incorporate appropriate labels for the form elements.
+    All the form elements are not optional.
+    Incorporate appropriate labels for the form elements.
