@@ -1,4 +1,4 @@
-## Week 2 Assignment 1
+## Week 2 Assignment 
 
 ### Image Linking In HTML
 
@@ -11,3 +11,22 @@
     Use appropriate HTML tags for headings, paragraphs, lists, and images.
     Link each image to a relevant external website (use placeholder URLs if needed).
     Ensure the page is well-structured and easy to navigate.
+
+## Week 3 Assignment
+
+### Working With HTML Forms
+
+    Create a html form to register a new student
+    Gather the following information using the relevent form elements:
+    - Name
+    - Date of Birth
+    - Gender
+    - Address
+    - Telephone
+    - Email Address
+    - Course
+   The form should have two buttons:
+    - Register
+    - Cancel
+   All the form elements are not optional.
+   Incorporate appropriate labels for the form elements.

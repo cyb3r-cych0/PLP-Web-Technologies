@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+      <style>
+          body {
+              font-family: Arial, sans-serif;
+              background-color: #f9f9f9;
+              margin: 0;
+              padding: 0;
+          }
+
+          h1 {
+              text-align: center;
+              margin: 20px 0;
+          }
+
+          form {
+              max-width: 400px;
+              margin: 0 auto;
+              background-color: #ffffff;
+              padding: 20px;
+              border-radius: 5px;
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          }
+
+          label {
+              display: block;
+              margin-bottom: 10px;
+          }
+
+          input,
+          select,
+          textarea {
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 15px;
+              border: 1px solid #ccc;
+              border-radius: 3px;
+              font-size: 14px;
+          }
+
+          button {
+              background-color: #007bff;
+              color: #ffffff;
+              border: none;
+              padding: 10px 20px;
+              border-radius: 3px;
+              cursor: pointer;
+          }
+
+          button[type="button"] {
+              background-color: #ccc;
+          }
+      </style>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="/submit-registration" method="post">
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <!-- Gender -->
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <!-- Address -->
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+
+        <!-- Telephone -->
+        <label for="telephone">Telephone:</label>
+        <input type="tel" id="telephone" name="telephone" required>
+
+        <!-- Email Address -->
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Course -->
+        <label for="course">Course:</label>
+        <input type="text" id="course" name="course" required>
+
+        <!-- Buttons -->
+        <button type="submit">Register</button>
+        <button type="button" onclick="window.location.href='/cancel-registration'">Cancel</button>
+    </form>
+</body>
+</html>
